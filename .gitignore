@@ -1,7 +1,7 @@
-projects/
-sessions/
-history.jsonl
-settings.json
-session-env/
-remote-settings.json
-*.log
+# ~/.claude holds lots of runtime state (daemon, cache, sessions, jobs, logs).
+# Track only curated config: ignore everything, then allow-list what we keep.
+/*
+
+!/.gitignore
+!/CLAUDE.md
+!/skills/
